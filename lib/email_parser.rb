@@ -21,3 +21,4 @@ class EmailAddressParser
   end
   array2
 end
+end
