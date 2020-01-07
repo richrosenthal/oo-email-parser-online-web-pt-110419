@@ -12,6 +12,7 @@ class EmailAddressParser
   end  
   
   def parse
+  name.match
   array = name.split(',')
   end
   
