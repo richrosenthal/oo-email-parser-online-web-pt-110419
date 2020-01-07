@@ -1,7 +1,4 @@
-# Build a class EmailParser that accepts a string of unformatted 
-# emails. The parse method on the class should separate them into
-# unique email addresses. The delimiters to support are commas (',')
-# or whitespace (' ').
+#Richard Rosenthal 1-7-2020
 
 require 'pry'
 class EmailAddressParser
@@ -12,8 +9,8 @@ class EmailAddressParser
   end  
   
   def parse
-  array = name.split(/[,\s]+/)
-  array.uniq
-end
+    array = name.split(/[,\s]+/)
+    array.uniq
+  end
 
 end
