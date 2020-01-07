@@ -20,6 +20,7 @@ class EmailAddressParser
       array2 << emails
     end
   end
+  binding.pry
   array2
 end
 end
